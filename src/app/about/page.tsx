@@ -7,7 +7,7 @@ import FooterCard from '@/components/sections/footer/FooterCard';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 
-export default function LandingPage() {
+export default function AboutPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="text-stagger"
@@ -25,24 +25,13 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "Shop",
-          id: "/shop",
-        },
-        {
-          name: "About",
-          id: "/about",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "Shop", id: "/shop" },
+        { name: "About", id: "/about" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="Nexus3D"
+      button={{ text: "Get Started" }}
     />
   </div>
 
@@ -54,19 +43,16 @@ export default function LandingPage() {
       description="Innovating the e-commerce space with immersive 3D technology."
       bulletPoints={[
         {
-          title: "Innovation",
-          description: "Always pushing boundaries.",
+          title: "Innovation",          description: "Always pushing boundaries."
         },
         {
-          title: "Design",
-          description: "Beauty in every detail.",
+          title: "Design",          description: "Beauty in every detail."
         },
         {
-          title: "Performance",
-          description: "Speed is our priority.",
-        },
+          title: "Performance",          description: "Speed is our priority."
+        }
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=12"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png"
       mediaAnimation="slide-up"
     />
   </div>
@@ -74,9 +60,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactCenter
       useInvertedBackground={false}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       tag="Careers"
       title="Join Us"
       description="We are hiring creators."

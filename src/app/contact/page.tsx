@@ -6,7 +6,7 @@ import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterCard from '@/components/sections/footer/FooterCard';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 
-export default function LandingPage() {
+export default function ContactPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="text-stagger"
@@ -24,33 +24,20 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "Shop",
-          id: "/shop",
-        },
-        {
-          name: "About",
-          id: "/about",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "Shop", id: "/shop" },
+        { name: "About", id: "/about" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="Nexus3D"
+      button={{ text: "Get Started" }}
     />
   </div>
 
   <div id="contact" data-section="contact">
       <ContactCenter
       useInvertedBackground={false}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       tag="Direct"
       title="Contact Support"
       description="Fill out the form for urgent inquiries."
