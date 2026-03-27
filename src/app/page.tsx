@@ -47,10 +47,10 @@ export default function LandingPage() {
       tag="Next-Gen E-commerce"
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",          imageAlt: "3D Gadget"
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=1",          imageAlt: "3D Gadget"
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",          imageAlt: "3D Gadget Alt 2"
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=2",          imageAlt: "3D Gadget Alt 2"
         }
       ]}
       mediaAnimation="slide-up"
@@ -67,15 +67,15 @@ export default function LandingPage() {
       features={[
         {
           id: 1,
-          title: "Real-time 3D View",          description: "Interactive models at your fingertips.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",          imageAlt: "Feature 1"
+          title: "Real-time 3D View",          description: "Interactive models at your fingertips.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=3",          imageAlt: "Feature 1"
         },
         {
           id: 2,
-          title: "AR Preview",          description: "Visualize in your own space.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",          imageAlt: "Feature 2"
+          title: "AR Preview",          description: "Visualize in your own space.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=4",          imageAlt: "Feature 2"
         },
         {
           id: 3,
-          title: "Fast Performance",          description: "Optimized for smooth browsing.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",          imageAlt: "Feature 3"
+          title: "Fast Performance",          description: "Optimized for smooth browsing.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=5",          imageAlt: "Feature 3"
         }
       ]}
       title="Limitless Interactivity"
@@ -100,7 +100,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",          title: "Incredible Tech",          quote: "The 3D models are so realistic.",          name: "Sarah",          role: "Designer",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/portrait-of-a-tech-focused-professional--1774636693329-65e6fa2c.png"
+          id: "1",          title: "Incredible Tech",          quote: "The 3D models are so realistic.",          name: "Sarah",          role: "Designer",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/portrait-of-a-tech-focused-professional--1774636693329-65e6fa2c.png?_wi=1"
         },
         {
           id: "2",          title: "Fast and Smooth",          quote: "I never enjoyed shopping this much.",          name: "John",          role: "Engineer",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/portrait-of-a-creative-designer-minimali-1774636692346-19eea4fa.png"
@@ -112,7 +112,7 @@ export default function LandingPage() {
           id: "4",          title: "Best Experience",          quote: "Love the interactive features.",          name: "David",          role: "Consultant",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/confident-tech-entrepreneur-portrait-hig-1774636693395-e97776ef.png"
         },
         {
-          id: "5",          title: "Unmatched Quality",          quote: "Changed how I buy electronics.",          name: "Alex",          role: "Developer",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/portrait-of-a-tech-focused-professional--1774636693329-65e6fa2c.png"
+          id: "5",          title: "Unmatched Quality",          quote: "Changed how I buy electronics.",          name: "Alex",          role: "Developer",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/portrait-of-a-tech-focused-professional--1774636693329-65e6fa2c.png?_wi=2"
         }
       ]}
       title="What Our Users Say"
