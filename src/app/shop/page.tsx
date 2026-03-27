@@ -7,7 +7,7 @@ import FooterCard from '@/components/sections/footer/FooterCard';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 
-export default function LandingPage() {
+export default function ShopPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="text-stagger"
@@ -25,24 +25,13 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "Shop",
-          id: "/shop",
-        },
-        {
-          name: "About",
-          id: "/about",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "Shop", id: "/shop" },
+        { name: "About", id: "/about" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="Nexus3D"
+      button={{ text: "Get Started" }}
     />
   </div>
 
@@ -54,23 +43,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",
-          name: "Smart Glasses",
-          price: "$299",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=9",
+          id: "p1",          name: "Smart Glasses",          price: "$299",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png"
         },
         {
-          id: "p2",
-          name: "Sonic Headset",
-          price: "$199",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=10",
+          id: "p2",          name: "Sonic Headset",          price: "$199",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png"
         },
         {
-          id: "p3",
-          name: "Mini Drone",
-          price: "$499",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=11",
-        },
+          id: "p3",          name: "Mini Drone",          price: "$499",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png"
+        }
       ]}
       title="Featured Products"
       description="Browse our 3D collection."
@@ -80,9 +60,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactCenter
       useInvertedBackground={false}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       tag="Support"
       title="Need Help?"
       description="Our team is here to assist."
