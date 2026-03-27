@@ -60,23 +60,23 @@ export default function LandingPage() {
       tag="Next-Gen E-commerce"
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=1",
           imageAlt: "3D Gadget",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=2",
           imageAlt: "3D Gadget Alt 2",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=3",
           imageAlt: "3D Gadget Alt 3",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=4",
           imageAlt: "3D Gadget Alt 4",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=5",
           imageAlt: "3D Gadget Alt 5",
         },
       ]}
@@ -96,21 +96,21 @@ export default function LandingPage() {
           id: 1,
           title: "Real-time 3D View",
           description: "Interactive models at your fingertips.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=6",
           imageAlt: "Feature 1",
         },
         {
           id: 2,
           title: "AR Preview",
           description: "Visualize in your own space.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=7",
           imageAlt: "Feature 2",
         },
         {
           id: 3,
           title: "Fast Performance",
           description: "Optimized for smooth browsing.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/futuristic-3d-tech-product-display-featu-1774636693730-91b6102e.png?_wi=8",
           imageAlt: "Feature 3",
         },
       ]}
@@ -157,7 +157,7 @@ export default function LandingPage() {
           quote: "The 3D models are so realistic.",
           name: "Sarah",
           role: "Designer",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/portrait-of-a-tech-focused-professional--1774636693329-65e6fa2c.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/portrait-of-a-tech-focused-professional--1774636693329-65e6fa2c.png?_wi=1",
         },
         {
           id: "2",
@@ -189,7 +189,7 @@ export default function LandingPage() {
           quote: "Changed how I buy electronics.",
           name: "Alex",
           role: "Developer",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/portrait-of-a-tech-focused-professional--1774636693329-65e6fa2c.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXXuZmK7jhnimueMVZmKhqM6CC/portrait-of-a-tech-focused-professional--1774636693329-65e6fa2c.png?_wi=2",
         },
       ]}
       title="What Our Users Say"
